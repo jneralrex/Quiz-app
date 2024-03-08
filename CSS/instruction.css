@@ -1,0 +1,34 @@
+*{
+ box-sizing: border-box;
+}
+body{
+  background-color:#8268fe;
+}
+.instructions{
+ list-style: decimal;
+}
+.big-text{
+  width: 100%;
+  text-align: center;
+}
+button{
+  position: relative;
+  left: 45%;
+  margin-top: 40px;
+  background-color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #8268fe;
+}
+button:hover{
+  background-color: white;    
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: black;
+}
+.big-text{
+  font-size: 40px;
+  margin-bottom: 50px;
+}

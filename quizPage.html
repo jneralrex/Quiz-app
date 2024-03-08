@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="./CSS/quizPage.css">
+</head>
+<body>
+<div class="top">
+   <div class="countdown top-details" id="countdown"></div>
+ <div class="userName top-details" id="userName"></div>
+ <div class="schoolName top-details" id="schoolName"></div>
+</div>
+
+ <div  class="question-board">
+  Your questions
+  👇
+  <div class="questions-words"></div>
+   <div class="options" id="options"></div>
+ </div>
+   <button type="button" class="submitBtn" id="submitBtn" onclick="submitQuiz()">Submit</button> 
+
+
+ <div class="final-score-and-greetings" id="finalScoreAndGreetings">
+
+ </div>
+ <div class="report-modal" id="reportModal">
+ <img src="./images/icons8-cancel-50.png" alt="" srcset="" class="cancel-btn" id="cancelBtn" onclick="hideReportModal()">
+  <div class="report-card">
+     <div class="score" id="score">
+
+ </div>
+  </div>
+</div>
+</body>
+<script src="./JS/validation.js"></script>
+<script src="./JS/quizPage.js"></script>
+</html>

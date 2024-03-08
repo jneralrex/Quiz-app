@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="./CSS/validation.css">
+</head>
+<body>
+<div class="advert">
+  <marquee behavior="scroll" direction="left" class="marquee"><div class="" id="advert"></div></marquee>
+ <div class="gen-page-body">
+  <div class="form-area">
+   <form action="" method="post">
+    <div class="form-header">
+     <h3 class="instruction">Login to participate</h3>
+    </div>
+   
+  <div class="form-group">
+     <label for="">Email  <span class="errorMessage" id="emailErrorMessage"></span>
+        <br> <input type="email" name="" id="studentEmail" placeholder="Jondoe@gmail.com"><br> <br>
+     </label>
+    </div>
+ <div class="form-group">
+     <label for="">Password  <span class="errorMessage" id="passwordErrorMessage"></span>
+        <br> <input type="password" name="" id="password"><br> <br>
+     </label>
+    </div>
+    <div class="form-group">
+     <label for="">
+      <button type="button" onclick="login()">Login</button>
+     </label>
+    </div>
+   </form>
+
+   <marquee behavior="scroll" direction="up" class="slidindWords" id="slidindWords"><div class="form-story">
+    <p><span class="price-figure">User detail</span> <br>   <span class="attraction">not found please</span><br><span class="condition">try again!</span></p>
+   </div>
+   </marquee>
+  </div>
+ </div>
+</body>
+<script src="./JS/validation.js"></script>
+</html>

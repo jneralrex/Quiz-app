@@ -1,0 +1,117 @@
+*{
+ padding: 0;
+ margin: 0;
+ list-style: none;
+ box-sizing: border-box;
+}
+body{
+  background-color:#8268fe;
+}
+.gen-page-body{
+ display: flex;
+
+}
+.instruction{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.form-area{
+ display: flex;
+ position: fixed;
+ width: 580px;
+ padding-top: 30px;
+ padding-bottom: 50px;
+ border-radius: 0 10px 10px 0;
+ background-color: rgb(78, 76, 173, 0.4);
+ margin-top: 20px;
+}
+.form-story{
+ position: relative;
+ left: 1%;
+ padding-top: 10px;
+ background-color: #fff;
+ border-radius:10px 0 0 10px ;
+}
+.price-figure{
+ font-size: 50px;
+ line-height: 60px;
+}
+.attraction{
+ font-size: 30px;
+ line-height: 50px;
+}
+.condition{
+ font-size: 25px;
+  line-height: 50px;
+}
+input{
+ border: none;
+ padding: 5px 0;
+}
+.left-board{
+ display: grid;
+ grid-template-columns: auto auto;
+ gap: 10px;
+ width: 500px;
+ position: relative;
+ left: 45%;
+ padding-bottom: 50px;
+ margin-top: 20px;
+}
+.previous-winners{
+ height: 350px;
+ width: 350px;
+ box-shadow: 0px 10px 8px 0px gray;
+background-color: #fff;
+border-radius: 5px;
+}
+.details-board{
+ padding: 2px 5px;
+ margin-top: 20px;
+}
+.details{
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.previous-winners-passport{
+ height: 200px;
+ width: 200px;
+ position: relative;
+ left: 22%;
+ top: 10%;
+ border-radius: 5px;
+ background-color: #bcb4b4;
+ 
+}
+#slidindWords{
+ visibility: hidden;
+ color: rgb(255, 0, 0, 0.5);
+}
+.previous-winners-jpg{
+  height: 200px;
+  width: 200px;
+}
+.marquee{
+  background-color: black;
+  color: #bcb4b4;
+  position: fixed;
+  margin-bottom: 20px;
+  z-index: 99;
+}
+button{
+  background-color:#8268fe;
+  border: none;
+  padding: 5px 10px;
+}
+button:hover{
+  background-color: rgb(78, 76, 173, 0.4);    
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+a{
+  text-decoration: none;
+  color:rgb(0,0,0)
+}
+
+ 

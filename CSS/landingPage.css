@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav > ul > li > button> a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    position: fixed;
+    background-color:#8268fe;
+    width: 100%;
+    z-index: 99;
+}
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding-top: 15px;
+}
+nav > ul > li{
+    list-style: none;
+}
+button{
+    background-color:#8268fe;
+    border: none;
+    padding: 5px 10px;
+    color: black;
+}
+button:hover{
+    background-color: rgb(78, 76, 173, 0.4);    
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+}
+.banner1{
+        position: relative;
+        top: 50%;
+        background-image: url(../img/banner.jpeg);
+        height: 600px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 50px;
+}
+.banner1-story{
+    position: relative;
+    top: 8%;
+    background-color: #fff;
+    width: 40%;
+    height: 400px;
+    width: 51.5%;
+    padding-top: 30px;
+}
+.board-info{
+    display: flex;
+    justify-content: space-between;
+}
+.board-info > h2{
+  text-decoration: underline;
+  margin-left: 20px;
+}
+.board-info > h4{
+    text-decoration: underline;
+    padding-top: 10px;
+    margin-right: 10px;
+
+  }
+.story-body{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 8px 10px 0px grey;
+    margin-bottom: 30px;
+}
+.pics{
+    height: 500px;
+    width:  600px;
+    margin-right: 20px;
+    background-image: url(../img/pexels-meo-724994.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.question{
+    height: 500px;
+    width: 50%; 
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+}
+.pics2{
+    height: 500px;
+    width:  600px;
+    background-image: url(../img/pexels-photo-2377182.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.encourage{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.banner{
+    background-image: url(../img/pexels-photo-260024.webp);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+}
+.banner-story{
+    background-color: #fff;
+    width: 40%;
+    margin-top: 10px;
+}
+.banner-story > ul, h4{
+    margin-left: 10px;
+}
+.board-content > p{
+    line-height: 1.5;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.board-para{
+    margin-left: 30px;
+}
+.link{
+    font-size: 20px;
+    text-decoration: underline;
+    color: rgb(106, 106, 212);
+}

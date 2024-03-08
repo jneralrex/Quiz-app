@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>signup</title>
+ <link rel="stylesheet" href="./CSS/validation.css">
+</head>
+<body>
+ <marquee behavior="scroll" direction="left" class="marquee"><div class="" id="advert"></div></marquee>
+ <div class="gen-page-body">
+  <div class="form-area">
+   <form action="" method="post">
+    <div class="form-header">
+     <h3 class="instruction">Register here</h3>
+    </div>
+    <div class="form-group">
+     <label for="">Full Name  <span class="errorMessage" id="nameErrorMessage"></span>
+      <br> <input type="text" name="" id="studentName" placeholder="Jon Doe"><br> <br>
+     </label>  
+    </div>
+    <div class="form-group">
+     <label for="">School name  <span class="errorMessage" id="schoolErrorMessage"></span>
+         <br><input type="text" name="" id="schoolName" placeholder="Jon Doe academy"><br> <br>
+     </label>
+    </div>
+    <div class="form-group">
+     <label for="">Grade <span class="errorMessage" id="gradeErrorMessage"></span>
+        <br> <input type="text" name="" id="studentLevel" placeholder="3"><br> <br>
+     </label>
+    </div>
+    <div class="form-group">
+     <label for="">Email  <span class="errorMessage" id="emailErrorMessage"></span>
+        <br> <input type="email" name="" id="studentEmail" placeholder="Jondoe@gmail.com"><br> <br>
+     </label>
+    </div>
+    <div class="form-group">
+     <label for="">Phone number   <span class="errorMessage" id="phoneNumberErrorMessage"></span>
+        <br> <input type="tel" name="" id="phoneNumber" placeholder="+234"><br> <br>
+     </label>
+    </div>
+    <div class="form-group">
+     <label for="">Parent or Guardian Tel  <span class="errorMessage" id="pAndGerrorMessage"></span>
+        <br> <input type="tel" name="" id="parentOrGuardian" placeholder="+234 Someone reachable"><br> <br>
+     </label>
+    </div>
+    <div class="form-group">
+     <label for="">Password  <span class="errorMessage" id="passwordErrorMessage"></span>
+        <br> <input type="password" name="" id="password"><br> <br>
+     </label>
+    </div>
+    <div class="form-group">
+     <label for="">Confirm Password  <span class="errorMessage" id="confrimPsswordErrorMessage"></span>
+       <br> <input type="password" name="" id="confrimPassword"><br> <br>
+     </label>
+    </div>
+    <div class="form-group">
+     <label for="">
+      <button type="button" onclick="getStudentDetails()">Sign Up</button>
+      <a href="loginPage.html">Login</a>
+     </label>
+    </div>
+   </form>
+
+   <marquee behavior="scroll" direction="up" class="slidindWords"><div class="form-story">
+    <p><span class="price-figure">100 Million Naira</span> <br>   <span class="attraction">cash prize up for grab </span><br><span class="condition">if you win!</span></p>
+   </div>
+   </marquee>
+   
+  </div>
+  <div class="left-board" id="winnerBoard">
+    
+  </div>
+ </div>
+</body>
+<script src="./JS/validation.js"></script>
+</html>
